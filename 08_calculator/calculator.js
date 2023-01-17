@@ -2,7 +2,9 @@ const add = function (x, y) {
   return x + y;
 };
 
-const subtract = function () {};
+const subtract = function (x, y) {
+  return x - y;
+};
 
 const sum = function () {};
 
