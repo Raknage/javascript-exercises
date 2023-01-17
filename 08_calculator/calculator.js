@@ -18,7 +18,14 @@ const power = function (x, y) {
   return x ** y;
 };
 
-const factorial = function () {};
+const factorial = function (n) {
+  let sum = 1;
+  while (n > 1) {
+    sum *= n;
+    n--;
+  }
+  return sum;
+};
 
 // Do not edit below this line
 module.exports = {
